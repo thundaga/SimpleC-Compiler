@@ -12,7 +12,7 @@ Compiler will cover lexical specification on:
   - Control Flow
   - Function Abstraction
 
-### Guide to the Command Line Installing the required packages
+## Guide to the Command Line Installing the required packages
 This was tested on Windows Subsystem Linux Ubuntu 18.04.
 
 packages required:
@@ -20,11 +20,11 @@ packages required:
 sudo apt-get update
 sudo apt-get install clang llvm make python3 python3-distutils
 
-### Setting up Makefile
+## Setting up Makefile
 upon running `make` on the command line at the root file it will build
 a .0, simplec file and link the .c file to build upon.
 
-### Running your compiler
+## Running your compiler
 upon any change to original .c file, run `make` to recompile it.
 
 steps to run project after building files from command `make`:
@@ -38,5 +38,5 @@ steps to run project after building files from command `make`:
     clang -o program program.ll
     ./program
 
-### Source
+## Source
 testcases, makefile, template.h file provided by professor Paul Gazzillo (https://paulgazzillo.com)
